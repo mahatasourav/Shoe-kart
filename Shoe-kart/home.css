@@ -1,0 +1,125 @@
+.container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .img-1 {
+    width: 327px;
+    height: 200px;
+    border: 9px black;
+    margin: 3px 3px;
+    margin-left: 7px;
+
+  }
+  .img-1:hover{
+    border: 5px red;
+    width: 327px;
+    transform: translateY(3px);
+    transform: scaleY(1.05);
+    
+  }
+  
+  .buy{
+width: 155px;
+margin: 4px 1px;
+color: black;
+background-color: #fb641b;
+margin-left: 2px;
+
+  }
+
+  .buy:hover{
+    background-color: rgb(191, 150, 230);
+  }
+  .cart{
+
+    width: 155px;
+    background-color: #ff9f00;
+    
+  }
+  .cart:hover{
+    background-color: rgb(193, 146, 237);
+  }
+
+  .text{
+    text-decoration: none;
+    color: black;
+  }
+  .price{
+    width: 337px;
+  }
+  .num{
+    display: flexbox;
+    flex-direction: column;
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 300px;
+    min-height: 300px;
+
+
+  }
+  /* footer */
+footer{
+  margin-top: 15px;
+}
+.foot-pannel1{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.foot-pannel2{
+  background-color: #222f3d;
+  color: white;
+  height: 270px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  border-color: #dddddd;
+}
+ul{
+  margin-top: 10px;
+}
+.foot-pannel3{
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white ;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  background-image: url(amazon_logo.png);
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+
+}
+.foot-pannel4{
+  
+  background-color: #0f1111;
+  color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-evenly; */
+  height: 80px;
+  font-size: 0.7rem;
+  text-align: center;
+  
+}
+.pages{
+  
+  padding-top: 25px;
+}
+.copyright{
+  
+  padding-top: 5px;
+}

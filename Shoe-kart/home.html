@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success" style="position: fixed; z-index: 10; width: 100%; align-items: center;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SHOE KART</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home <span class="badge bg-warning">New</span>
+                </h1></a>
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link active" href="men.html">Men</a>
+            </li>
+            </li>
+            <li class="nav-item">
+
+              <a class="nav-link active" href="women.html">Women</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="kids.html">Kids</a>
+            </li>
+            <br>
+            <button type="button" class="btn btn-primary">
+              Notifications <span class="badge bg-warning">4</span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+          <button type="button" class="btn btn-success">
+            <span class="badge bg-success "></span>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Logout
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Are you sure to Quit?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cancel</button>
+                    <a href="login.html" class="btn btn-danger" id="out">Quit</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#"> <img
+              src="https://images.pexels.com/photos/1032110/pexels-photo-1032110.jpeg?auto=compress&cs=tinysrgb&w=600"
+              style="opacity: 0.9;"" class=" d-block w-100" height="350" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="#"> <img
+              src="https://images.pexels.com/photos/267320/pexels-photo-267320.jpeg?auto=compress&cs=tinysrgb&w=600"
+              style="opacity: 0.9;" class="d-block w-100" height="350" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="#"><img
+              src="https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&w=600"
+              style="opacity: 0.9;"" class=" d-block w-100" height="350" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+
+
+
+  <div style="display: flex; flex-direction:row; flex-wrap: wrap;">
+    <div class="num" id="num1">
+      <a
+        href="https://www.flipkart.com/kardam-sons-fashionable-canvas-casual-partywear-outdoor-sneakers-white-shoes-men/p/itmbc0d599fa52be?pid=SHOGHK2U8BBYJ8N2&cmpid=product.share.pp&_refId=PP.95d70235-e6c9-42be-94d2-189eb7d986d9.SHOGHK2U8BBYJ8N2&_appId=WA"><img
+          src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/c/o/d/9-black-line-9-kardam-sons-black-and-white-original-imaghxz6rv2uwhkp.jpeg?q=70"
+          alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num2">
+      <a
+        href="https://www.flipkart.com/wildcraft-volga-hiking-trekking-shoes-men/p/itm2e3b804c83582?pid=SHOFGJ72THVZTYTG&lid=LSTSHOFGJ72THVZTYTGQZPXN9&marketplace=FLIPKART&q=shoe&store=osp&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=en_L8V2PRQsgKGYtxbBsLFEBFxUDH5M3HSBsQSrWC_aMnXh-l5Ykx_xhWVb6W4EOZ06NVtxFlPBkAs_ODeuR9oVSg%3D%3D&ppt=sp&ppn=sp&ssid=vlmxj0nwv40000001689360515468&qH=d8a48e3f0e1322d5"><img
+          src="https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/y/p/x/-original-imagfb9vkgbf6hb8-bb.jpeg?q=70"
+          alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <button class="buy"><a href="#" class="text">BUY NOW</a></button>
+      <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+    </div>
+
+    <div class="num" id="num3">
+      <a
+        href="https://www.flipkart.com/red-tape-boys-girls-velcro-running-shoes/p/itm4a326e7041388?pid=KSSGJWRZNGUWU9GY&lid=LSTKSSGJWRZNGUWU9GYKKMSJV&marketplace=FLIPKART&q=kids+shoes&store=osp%2Fmba%2Fo3t%2Faua&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=en_KOX-_m2-0UljrSc-jjZKIdeLv_8BD6YDenmkzRv3f-1XU6QyvfA1AXGNhaADzOO1HqzgYD5FUos3ujcZTbsvTw%3D%3D&ppt=sp&ppn=sp&qH=9fbcbfb1383327f5"><img
+          src="https://rukminim2.flixcart.com/image/832/832/kv2pk7k0/kids-shoe/h/w/m/5-rtk022-red-tape-original-imag8fv8juttmpvv.jpeg?q=70"
+          alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <button class="buy"><a href="#" class="text">BUY NOW</a></button>
+      <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+    </div>
+    <div class="num" id="num4">
+
+      <a
+        href="https://www.flipkart.com/red-tape-boys-girls-velcro-walking-shoes/p/itm3e08179707417?pid=KSSGKGZFZVCEYZGM&lid=LSTKSSGKGZFZVCEYZGMXHRB8T&marketplace=FLIPKART&q=kids+shoes&store=osp%2Fmba%2Fo3t%2Faua&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=Search&iid=en_KOX-_m2-0UljrSc-jjZKIdeLv_8BD6YDenmkzRv3f-3hnkQBhtzkcDHCYHgeup-UjO9lBWcGipzQPdFiZ-ZCoQ%3D%3D&ppt=browse&ppn=browse&ssid=ixq079wj0w0000001689362856168&qH=9fbcbfb1383327f5"><img
+          src="https://rukminim2.flixcart.com/image/612/612/kv2pk7k0/kids-shoe/h/e/a/1-rtk020-red-tape-original-imag8fv6bamhh4km.jpeg?q=70"
+          alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <button class="buy"><a href="#" class="text">BUY NOW</a></button>
+      <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-shoe/y/y/z/-original-imaghuj2fsgbu5qn.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/4/h/2/-original-imagk5kkgvgzzrhk.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src=" https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/f/y/b/-original-imaggbmdfzk6ywmh.jpeg?q=70" alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src=" https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/0/o/f/-original-imagj88k8tgbydv6.jpeg?q=70" alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-shoe/6/l/o/8-gola-dx-trz-original-imagqrem7thby6ds.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/h/4/5/-original-imagfxf6stha7t64-bb.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/t/y/d/-original-imagg3adyggmgksh.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-shoe/y/y/z/-original-imaghuj2fsgbu5qn.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/f/d/y/6-2082-white-walkers-black-original-imag5y96qxxpey5q-bb.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kids-shoe/p/p/4/4-atk-13-action-original-imagmxmxzgmh2q9u.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/q/o/e/4-shoe1417-4-kraasa-pink-original-imagmfuumghujqft.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+    <div class="num" id="num1">
+      <a href=" "> <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/r/p/3/4-peach-fws-13-footox-peach-original-imagk5dzf493z7zr.jpeg?q=70 " alt="" class="img-1"></a>
+      <h4 class="price">
+        Price : ₹499
+      </h4>
+      <div><button class="buy"><a href="#" class="text">BUY NOW</a></button>
+        <button class="cart"><a href="#" class="text">ADD TO CART</a></button>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+  <hr>
+
+  <footer>
+    <div class="foot-pannel1">Back to Top</div>
+    <div class="foot-pannel2">
+        <ul>
+            <p><b>Get to Know Us</b></p>
+            <a>About Us</a>
+            <a>Careers</a>
+            <a>Investor Relations</a>
+            <a>Shoe Kart Devices</a>
+            <a>Press Releases</a>
+            <a>Shoe Kart ScienShoe kart
+        </ul>
+        <ul>
+            <p><b>Connect with us</b></p>
+            <a>Facebook</a>
+            <a>Instagram</a>
+            <a>Twitter</a>
+            <a>Threads</a>
+            <!-- <a>Press Releases</a>
+            <a>Amazon Science</a> -->
+        </ul>
+        <ul>
+            <p><b>Make Money With Us</b></p>
+            <a>Sell on Shoe Kart</a>
+            <a>Shoe kart Global Selling</a>
+            <a>Become an Affiliate</a>
+            <a>Advertise Your Products</a>
+            <a>Fullfillment by Shoe Kart</a>
+            <!-- <a>Amazon Science</a> -->
+        </ul>
+        <ul>
+            <p><b>Let us Help You</b></p>
+            
+            <a>Careers</a>
+            <a>Your Account</a>
+            <a>Returns Center</a>
+            <a>Help</a>
+            
+        </ul>
+
+
+
+    </div>
+    <div class="foot-pannel3">
+        <div class="logo"></div>
+    </div>
+    <div class="foot-pannel4">
+        <div class="pages">
+            <a>Condition of Use</a>
+            <a>Privacy Notice</a>
+            <a>Your Ad Privacy Choice</a>
+        </div>
+        <div class="copyright">© Created and maintained by Sourav Mahata,Amit Sharma,Mahasin Prodhan & Mehetab Hossain Mondal</div>
+    </div>
+</footer>
+
+
+
+
+</body>

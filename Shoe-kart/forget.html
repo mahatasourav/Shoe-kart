@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forget password</title>
+    <style>
+        body{
+            background-image: url("https://rukminim2.flixcart.com/image/612/612/kura1e80/kids-shoe/c/f/8/1-rtk019-red-tape-original-imag7t2njjgdjneu.jpeg?q=70");
+        }
+        #for-get {
+            display: flex;
+            justify-content: center;
+            color: rgb(234, 235, 226);
+        }
+
+        .main-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 120px;
+        }
+
+        #login {
+            font-size: 18px;
+            text-decoration: none;
+           
+            
+        }
+        #login-button{
+border-radius: 8px;
+        }
+        #login-button:hover{
+            background-color: rgb(118, 222, 237);
+
+        }
+        #username{
+            padding: 8px 80px;
+            border-radius: 7px;
+        }
+        #submit{
+            padding: 8px 135px;
+            margin-top: 10px;
+            border-radius: 7px;
+        }
+        #forget-shoekart{
+            display: flex;
+            justify-content: center;
+            font-size: 35px;
+            font-weight: 500;
+            color: rgb(195, 195, 210);
+
+        }
+    </style>
+</head>
+
+<body>
+
+   <button id="login-button"> <span><a href="login.html" id="login">Back to login page</a></span></button>
+    <header><h2 id="forget-shoekart">SHOE KART</h2></header>
+    
+
+    <div class="main-box">
+        
+        <form action="backend.php">
+            
+            <h2 id="for-get">Forget password</h2>
+            <input type="text" name="myusername" id="username" placeholder="Phone number or email ">
+
+            <br> 
+            <div><input type="submit" name="mysubmit" id="submit" value="Send OTP"></div>
+        </form>
+    </div>
+    <br>
+
+
+</body>
+
+</html>
